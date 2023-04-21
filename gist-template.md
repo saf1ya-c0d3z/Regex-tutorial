@@ -120,7 +120,17 @@ Lazy matching - opposite of Greedy matching, - matches the minimum characters re
 
 ### Boundaries
 
+Used to match patterns that are at the beginning or end of the line
+
+^  -signifies the beginning of the string
+
+$ - the anchor which matches the end of the string
+
 ### Back-references
+
+(note: there are no back-references used in the specific regex shown in this gist-template)
+Refers to a previous match in the pattern and use it later
+ex:\b, \1, \s+, (\w+)
 
 ### Look-ahead and Look-behind
 
