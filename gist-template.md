@@ -4,7 +4,9 @@ In this assignment I will be "decoding" a specific regex expression that can be 
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regular expression (regex for short) is a sequence of characters that defines a search pattern.
+A meta character indicates a generalized pattern rather than a literal character.
+A literal character is exactly what is sounds like. So a literal character in a regex may mean that 6 actually is 6 in the string.
 
 ## Table of Contents
 
