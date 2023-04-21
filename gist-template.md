@@ -43,6 +43,12 @@ a-z -is a "range" this can be a single character between a and z
 
 ]  - this is the end of a charcter set
 
+) - this is the end of the capturing group
+
+$ - this is the anchor which matches the end of the string
+ 
+ / - this signifies the end of the regex pattern in JS
+
 
 a-z -is a "range" this can be a single character between a and z
 ## Table of Contents
