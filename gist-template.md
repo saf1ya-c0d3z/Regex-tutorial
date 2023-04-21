@@ -1,6 +1,6 @@
-# Title (replace with your title)
-
-Introductory paragraph (replace this with your text)
+# My Email Regex Expression
+ 
+In this assignment I will be "decoding" a specific regex expression that can be used in JavaScript. This specidic regex expression may be used to locate, manage or match text using a string text to create patterns.
 
 ## Summary
 
