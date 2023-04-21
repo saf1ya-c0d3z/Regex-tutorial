@@ -21,6 +21,13 @@ The regex I will be describing is for validating an Email:
 
 \ - used to escape characters that have a special meaning  (without the backslash escape the literal character (.) that follows would match any character and not be defined specifically as a dot, which is neccasary in this email)
 
+. - literal character- meant to match the literal dot (.) in the regex expression ( ex: in this expression this is the dot before "com" in ".com" or "org" in ".org")
+
+(   - this is the beginning of a capturing group which groups tokens together for extracting a substring or using a back reference
+
+[ - this is the beginning of a character set
+
+a-z -is a "range" this can be a single character between a and z
 ## Table of Contents
 
 - [Anchors](#anchors)
