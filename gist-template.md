@@ -13,6 +13,14 @@ The regex I will be describing is for validating an Email:
 
 /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
+## regex explanation overView
+
+/ - delimiter used to enclose regular expressions in many programming languages (used in JavaScript)
+
+@  - this is a literal character where the "@" in the email is
+
+\ - used to escape characters that have a special meaning  (without the backslash escape the literal character (.) that follows would match any character and not be defined specifically as a dot, which is neccasary in this email)
+
 ## Table of Contents
 
 - [Anchors](#anchors)
