@@ -97,7 +97,15 @@ $ - the anchor which matches the end of the string
 
 ### Flags
 
+(note: there are so flags used in the specific regex shown in this gist-template)
+
+'g','i','m','s','u','y' - characters that modify and change the behavior of a regex by appending to the end, each character has a different effect on the regex
+
 ### Grouping and Capturing
+
+'([a-z0-9_\.-]+)', '([\da-z\.-]+)', '([a-z\.]{2,6})'
+
+()- Allows you to capture and use parts of a matched string (captures the substring for future use)
 
 ### Bracket Expressions
 
