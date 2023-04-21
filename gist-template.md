@@ -129,11 +129,23 @@ $ - the anchor which matches the end of the string
 ### Back-references
 
 (note: there are no back-references used in the specific regex shown in this gist-template)
+
 Refers to a previous match in the pattern and use it later
 ex:\b, \1, \s+, (\w+)
 
 ### Look-ahead and Look-behind
 
+There are positive and negative looks ahead and positive and negative looks behind
+
+Look-ahead/Look-behind allows you to match patterns based on what is before and after the pattern
+it does this without including text in the match
+
+key: "pattern" represents a variable which is the pattern in the specific regex
+
+ex: (?="pattern"), (?!"pattern"), (?<="pattern"),  (?<!"pattern"). 
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Zoe-Sophia Shrader is a 21 year old who has began taking UC Berkley's Coding Bootcamp in 2022. She is close to completing this course and is currently working on her 18th module with approximately one month left in her bootcamp until she can recieve her certificate. After this she hopes to be able to hone her skills and continue her learning so that she may have the oppurtunity to work in the tech field.
+
+Her gitHub profile is: https://github.com/
