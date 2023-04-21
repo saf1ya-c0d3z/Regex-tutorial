@@ -109,7 +109,14 @@ $ - the anchor which matches the end of the string
 
 ### Bracket Expressions
 
+[]- used to match any character that belongs to a specified set
+
 ### Greedy and Lazy Match
+
+Controls how many characters are matched
+
+Greedy matching- matches as many characters as possible
+Lazy matching - opposite of Greedy matching, - matches the minimum characters required for pattern to match (lazy match by adding '?' after the quantifier)
 
 ### Boundaries
 
