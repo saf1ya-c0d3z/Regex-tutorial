@@ -35,6 +35,14 @@ The regex I will be describing is for validating an Email:
 
 (  - this is the beginning of a capturing group which groups tokens together for extracting a substring or using a back reference
 
+[ - this is the beginning of a character set
+
+\d - matches any digit character (0-9)
+
+a-z -is a "range" this can be a single character between a and z
+
+]  - this is the end of a charcter set
+
 
 a-z -is a "range" this can be a single character between a and z
 ## Table of Contents
