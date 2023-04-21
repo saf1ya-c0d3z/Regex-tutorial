@@ -8,6 +8,11 @@ A regular expression (regex for short) is a sequence of characters that defines 
 A meta character indicates a generalized pattern rather than a literal character.
 A literal character is exactly what is sounds like. So a literal character in a regex may mean that 6 actually is 6 in the string.
 
+
+The regex I will be describing is for validating an Email:
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+
 ## Table of Contents
 
 - [Anchors](#anchors)
