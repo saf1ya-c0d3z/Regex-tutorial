@@ -81,6 +81,10 @@ $ - the anchor which matches the end of the string
 
 ### OR Operator
 
+(note: there is no or opperator in the specific regex shown in this gist-template)
+
+ OR operator '|' allows you to have a match of one pattern or a different pattern (| = or)
+
 ### Character Classes
 
 ### Flags
