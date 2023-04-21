@@ -87,6 +87,14 @@ $ - the anchor which matches the end of the string
 
 ### Character Classes
 
+(Matches...)
+
+[a-z0-9_\.-] -  any lowercase number, digit, underscore, dot or hyphen
+
+[\da-z\.-] - any character that is a digit, lowercase letter dot or hyphen
+
+[a-z\.] - any character that is a lowercase letter or a period (.)
+
 ### Flags
 
 ### Grouping and Capturing
