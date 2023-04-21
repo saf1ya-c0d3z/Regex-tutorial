@@ -75,6 +75,10 @@ $ - the anchor which matches the end of the string
 
 ### Quantifiers
 
++ - matches one or more occurences of the previous character or group fo characters
+
+{2,6} - this is a quantifier which specifices the miniimum and maximum number of occurences of the preceding pattern which should be matched. Since the preceding characters are "\.([a-z\."] this means the pattern should match a dot followed by 2-6 lowercase alphabetical characters or dots. (this is likely where we would find .com or .org, .edu or .pb.se). Since this is followed by a '$' this signifies this pattern will come at the end of each string.
+
 ### OR Operator
 
 ### Character Classes
