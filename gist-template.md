@@ -69,6 +69,10 @@ a-z -is a "range" this can be a single character between a and z
 
 ### Anchors
 
+^  -signifies the beginning of the string
+
+$ - the anchor which matches the end of the string
+
 ### Quantifiers
 
 ### OR Operator
